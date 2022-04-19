@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip a Coin</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="buttons score">
+        <div class="numberCirclePlayer1">
+            1
+        </div>
+        <div class="numberCirclePlayer2">
+            1
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="stats">
+            <p id="heads-count">Heads: 0</p>
+            <p id="tails-count">Tails: 0</p>
+        </div>
+        <div class="coin">
+            <div class="heads">
+                <img src="heads.png">
+            </div>
+            <div class="tails">
+                <img src="tails.png">
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button" id = "flip-button">
+                Flip coin
+            </button>
+            <button class="button" id = "reset-button">
+                Reset
+            </button>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="suggestion suggestionPlayer1">
+            <p id="player">Player 1</p>
+            <br>
+            <br>
+            <form id="suggestPlayerOne" class="buttons">
+                <input type="radio" id="headsSuggestPlayerOne" name="playerSuggest" value="0">
+                <label class="label" for="headsSuggestPlayerOne"><img class="playerSuggest" src="heads.png"></label>
+                <input type="radio" id="tailsSuggestPlayerOne" name="playerSuggest" value="1">
+                <label class="label" for="tailsSuggestPlayerOne"><img class="playerSuggest" src="tails.png"></label><br>
+            </form> 
+        </div>
+        <div class="suggestion suggestionPlayer2 ">
+            <p id="player">Player 2</p>
+            <br>
+            <br>
+            <form id="suggestPlayerTwo" class="buttons">
+                <input type="radio" id="headsSuggestPlayerTwo" name="playerSuggest" value="0">
+                <label class="label" for="headsSuggestPlayerTwo"><img class="playerSuggest" src="heads.png"></label>
+                <input type="radio" id="tailsSuggestPlayerTwo" name="playerSuggest" value="1">
+                <label class="label" for="tailsSuggestPlayerTwo"><img class="playerSuggest" src="tails.png"></label><br>
+            </form> 
+        </div>
+    </div>
+    <!--Script-->
+    <script src="main.js"></script>
+</body>
+</html>
