@@ -9,13 +9,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="buttons score">
-        <div class="numberCirclePlayer1">
-            1
+    <p class="winner"></p>
+    <div class="buttons">
+        <div class="scorePlayer1">
         </div>
-        <div class="numberCirclePlayer2">
-            1
+        <div class="scorePlayer2">
         </div>
     </div>
     
@@ -42,26 +40,15 @@
         </div>
     </div>
     <div class="buttons">
-        <div class="suggestion suggestionPlayer1">
+        <div class="suggestion suggestionPlayer">
             <p id="player">Player 1</p>
             <br>
             <br>
             <form id="suggestPlayerOne" class="buttons">
-                <input type="radio" id="headsSuggestPlayerOne" name="playerSuggest" value="0">
+                <input type="radio" id="headsSuggestPlayerOne" name="playerOneSuggest" value="1">
                 <label class="label" for="headsSuggestPlayerOne"><img class="playerSuggest" src="heads.png"></label>
-                <input type="radio" id="tailsSuggestPlayerOne" name="playerSuggest" value="1">
+                <input type="radio" id="tailsSuggestPlayerOne" name="playerOneSuggest" value="0">
                 <label class="label" for="tailsSuggestPlayerOne"><img class="playerSuggest" src="tails.png"></label><br>
-            </form> 
-        </div>
-        <div class="suggestion suggestionPlayer2 ">
-            <p id="player">Player 2</p>
-            <br>
-            <br>
-            <form id="suggestPlayerTwo" class="buttons">
-                <input type="radio" id="headsSuggestPlayerTwo" name="playerSuggest" value="0">
-                <label class="label" for="headsSuggestPlayerTwo"><img class="playerSuggest" src="heads.png"></label>
-                <input type="radio" id="tailsSuggestPlayerTwo" name="playerSuggest" value="1">
-                <label class="label" for="tailsSuggestPlayerTwo"><img class="playerSuggest" src="tails.png"></label><br>
             </form> 
         </div>
     </div>

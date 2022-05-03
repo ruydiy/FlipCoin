@@ -34,12 +34,10 @@ body{
     top: 86%;
     box-shadow: 15px 30px 35px rgba(0, 0, 0, 1);
     border-radius: 10px;
+    visibility: visible;
 }
-.suggestionPlayer1{
+.suggestionPlayer{
     left: 20%;
-}
-.suggestionPlayer2{
-    left: 80%;
 }
 .stats{
     text-align: right;
@@ -123,32 +121,49 @@ body{
 }
 .numberCirclePlayer1 {
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    background: #ffffff;
-    border: 2px solid #666;
-    color: #424ae0;
+    width: 60px;
+    height: 60px;
+    background: #424ae0;
+    border: 5px solid #101020;
+    color: #ffffff;
     text-align: center;
-    font: 32px Arial, sans-serif; 
+    font: 45px Arial, sans-serif; 
+    font-weight: 600;
+    margin-top: 15px;
 }
 .numberCirclePlayer2 {
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    width: 60px;
+    height: 60px;
     background: #ffffff;
-    border: 2px solid #666;
-    color: #424ae0;
+    border: 5px solid #424ae0;
+    color: #101020;
     text-align: center;
-    font: 32px Arial, sans-serif; 
+    font: 45px Arial, sans-serif; 
+    font-weight: 700;
+    margin-top: 15px;
 }
-.score{
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 20px;
-    border: 2px solid #101020;
-    top: 10%;
-    left: 10%;
+.scorePlayer1{
+    padding: 20px 40px 10px 20px;
+    margin-top: 20px;
+    margin-left: 16%;
+}
+.scorePlayer2{
+    padding: 10px 40px 10px 10px;
+    margin-top: 20px;
+    margin-right: 15%;
 }
 .label{
     margin: -30px 0px 0px -40px;
+}
+.winner{
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    text-shadow: 4px 4px 5px #101020;
+    color: blue;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgb(66, 74, 224, 0.75));
+    letter-spacing: 6px;
+    border-radius: 5px;
+    font: 90px Arial, sans-serif; 
 }
